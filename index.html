@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wales Library Postcodes</title>
+	<link href="/node_modules/bootswatch/dist/sandstone/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/site.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<p id="plogo">
+				<img src="images/logo.png" alt="Libraries Hacked Logo" />
+			</p>
+			<h2>Wales Libraries Postcode Assessment</h2>
+			<div style="clear: both;"></div>
+			<p class="lead" id="ploading">Loading data...</p>
+			<div id="divapp">
+				<p class="lead">Enter your postcode below for a grading of distance to the nearest public library in Wales.</p>
+				<hr class="my-4">
+				<p>The tool only accepts Wales postcodes e.g. SY23 3BU. There is no tracking of postcards entered into this tool.</p>
+				<p class="lead">
+					<div class="form-group">
+						<label class="col-form-label col-form-label-lg" for="inputLarge">Postcode</label>
+						<input class="form-control form-control-lg" id="txtpostcode" type="text" placeholder="Postcode">
+					</div>
+					<a class="btn btn-primary btn-lg" role="button" href="#" id="btnsearch">Search</a>
+				</p>
+			</div>
+			<div id="divresults">
+				<h3 id="hgrade">Result</h3>
+				<hr class="my-4">
+				<p class="lead" id="pclassification"></p>
+			</div>
+			<div id="diverror">
+				<p class="lead">Could not find that postcode.</p>
+			</div>
+		</div>
+		<footer>
+			<hr />
+			<p>a
+				<a href="https://www.librarieshacked.org" target="_blank">{ libraries: hacked }</a> open source project available on
+				<a href="https://github.com/librarieshacked/walespostcodes-librarydata"
+				 target="_blank">GitHub</a>. Includes Contains OS data © Crown copyright and database right 2018. Contains Royal Mail data © Royal Mail copyright and Database right 2018. Contains National Statistics data © Crown copyright and database right 2018.</p>
+		</footer>
+	</div>
+
+	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="/node_modules/papaparse/papaparse.min.js"></script>
+	<script src="/js/site.js"></script>
+</body>
+
+</html>

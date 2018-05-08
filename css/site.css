@@ -1,0 +1,7 @@
+#plogo, plogo img {
+	float: right
+}
+
+#divapp, #divresults, #diverror {
+	display: none;
+}

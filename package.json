@@ -1,0 +1,26 @@
+{
+  "name": "walespostcodes-librarydata",
+  "version": "1.0.0",
+  "description": "Wales library postcode lottery application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LibrariesHacked/walespostcodes-librarydata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LibrariesHacked/walespostcodes-librarydata/issues"
+  },
+  "homepage": "https://github.com/LibrariesHacked/walespostcodes-librarydata#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootswatch": "^4.1.1",
+    "jquery": "^3.3.1",
+    "papaparse": "^4.4.0",
+    "popper.js": "^1.14.3"
+  }
+}

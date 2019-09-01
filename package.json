@@ -11,16 +11,16 @@
     "url": "git+https://github.com/LibrariesHacked/walespostcodes-librarydata.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/LibrariesHacked/walespostcodes-librarydata/issues"
   },
   "homepage": "https://github.com/LibrariesHacked/walespostcodes-librarydata#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "bootswatch": "^4.1.1",
-    "jquery": "^3.3.1",
-    "papaparse": "^4.4.0",
-    "popper.js": "^1.14.3"
+    "bootstrap": "^4.3.1",
+    "bootswatch": "^4.3.1",
+    "jquery": "^3.4.1",
+    "papaparse": "^5.0.2",
+    "popper.js": "^1.15.0"
   }
 }

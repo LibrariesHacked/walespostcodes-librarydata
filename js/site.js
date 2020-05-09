@@ -33,7 +33,7 @@ $(function () {
 						grade = result.grade;
 						classification = classifications[result.urban_code];
 						$('#hgrade').text('Grade ' + grades[grade - 1] + ' postcode');
-						$('#pclassification').text(result.postcode + '. This postcode has been graded on distance to nearest library, relative to other areas of the same classification. ' + classification + '.');
+						$('#pclassification').text(result.postcode + '. This postcode has been graded on distance to nearest library, relative to areas of the same rural/urban classification. The classification for this area is ' + classification + '.');
 					}
 				});
 				if (found) {

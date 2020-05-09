@@ -1,0 +1,24 @@
+name: Build
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Install dependencies
+      run: npm install
+    - name: Build
+      run: npm run build
+    - name: Publish github pages
+      run: |
+        npm install gh-pages -g
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/librarieshacked/walespostcodes-librarydata.git
+        gh-pages -d dist -b gh-pages -u "github-actions-bot <support+actions@github.com>"
+      env:
+        GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }}

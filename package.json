@@ -4,7 +4,8 @@
   "description": "Wales library postcode lottery application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,21 @@
   },
   "homepage": "https://github.com/LibrariesHacked/walespostcodes-librarydata#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "bootswatch": "^4.3.1",
-    "jquery": "^3.5.0",
-    "papaparse": "^5.0.2",
-    "popper.js": "^1.15.0"
+    "bootstrap": "^4.4.1",
+    "bootswatch": "^4.4.1",
+    "jquery": "^3.5.1",
+    "papaparse": "^5.2.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gh-pages": "^2.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-inject": "^5.0.5",
+    "gulp-live-server": "0.0.31",
+    "gulp-uglify": "^3.0.2"
   }
 }

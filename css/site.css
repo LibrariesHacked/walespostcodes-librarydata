@@ -1,7 +1,16 @@
 #plogo, plogo img {
-	float: right
+	padding: 5px;
+	float: right;
+	background-color: white;
+	border-radius: 55px;
+	border: 1px solid #e5e5e5;
+	margin: 15px;
 }
 
 #divapp, #divresults, #diverror {
 	display: none;
+}
+
+.jumbotron {
+	border: 1px solid #e5e5e5;
 }

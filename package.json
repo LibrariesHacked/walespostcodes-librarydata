@@ -25,8 +25,8 @@
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "del": "^7.0.0",
-    "gh-pages": "^5.0.0",
+    "del": "^8.0.1",
+    "gh-pages": "^6.3.0",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
